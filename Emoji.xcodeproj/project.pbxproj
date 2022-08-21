@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		52EBB3E128B29F5B00DB29D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3E028B29F5B00DB29D3 /* AppDelegate.swift */; };
 		52EBB3E328B29F5B00DB29D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3E228B29F5B00DB29D3 /* SceneDelegate.swift */; };
-		52EBB3E528B29F5B00DB29D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3E428B29F5B00DB29D3 /* ViewController.swift */; };
 		52EBB3E828B29F5B00DB29D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB3E628B29F5B00DB29D3 /* Main.storyboard */; };
 		52EBB3EA28B29F5C00DB29D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB3E928B29F5C00DB29D3 /* Assets.xcassets */; };
 		52EBB3ED28B29F5C00DB29D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EBB3EB28B29F5C00DB29D3 /* LaunchScreen.storyboard */; };
+		52EBB3F928B2A12400DB29D3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3F828B2A12400DB29D3 /* FirstViewController.swift */; };
+		52EBB3FB28B2A15D00DB29D3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3FA28B2A15D00DB29D3 /* SecondViewController.swift */; };
+		52EBB3FD28B2A18300DB29D3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3FC28B2A18300DB29D3 /* ThirdViewController.swift */; };
+		52EBB3FF28B2A19B00DB29D3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB3FE28B2A19B00DB29D3 /* FourthViewController.swift */; };
+		52EBB40128B2A2CD00DB29D3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EBB40028B2A2CD00DB29D3 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52EBB3DD28B29F5B00DB29D3 /* MoonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EBB3DD28B29F5B00DB29D3 /* Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EBB3E028B29F5B00DB29D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52EBB3E228B29F5B00DB29D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52EBB3E428B29F5B00DB29D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52EBB3E728B29F5B00DB29D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EBB3E928B29F5C00DB29D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EBB3EC28B29F5C00DB29D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EBB3EE28B29F5C00DB29D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EBB3F828B2A12400DB29D3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		52EBB3FA28B2A15D00DB29D3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52EBB3FC28B2A18300DB29D3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		52EBB3FE28B2A19B00DB29D3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		52EBB40028B2A2CD00DB29D3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		52EBB3DE28B29F5B00DB29D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52EBB3DD28B29F5B00DB29D3 /* MoonView.app */,
+				52EBB3DD28B29F5B00DB29D3 /* Emoji.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +64,59 @@
 		52EBB3DF28B29F5B00DB29D3 /* MoonView */ = {
 			isa = PBXGroup;
 			children = (
-				52EBB3E028B29F5B00DB29D3 /* AppDelegate.swift */,
-				52EBB3E228B29F5B00DB29D3 /* SceneDelegate.swift */,
-				52EBB3E428B29F5B00DB29D3 /* ViewController.swift */,
-				52EBB3E628B29F5B00DB29D3 /* Main.storyboard */,
+				52EBB3F428B2A0C100DB29D3 /* Models */,
+				52EBB3F528B2A0CD00DB29D3 /* Supports */,
+				52EBB3F628B2A0DC00DB29D3 /* ViewControllers */,
+				52EBB3F728B2A0E800DB29D3 /* Storyboards */,
 				52EBB3E928B29F5C00DB29D3 /* Assets.xcassets */,
-				52EBB3EB28B29F5C00DB29D3 /* LaunchScreen.storyboard */,
 				52EBB3EE28B29F5C00DB29D3 /* Info.plist */,
 			);
 			path = MoonView;
 			sourceTree = "<group>";
 		};
+		52EBB3F428B2A0C100DB29D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB40028B2A2CD00DB29D3 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52EBB3F528B2A0CD00DB29D3 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3E028B29F5B00DB29D3 /* AppDelegate.swift */,
+				52EBB3E228B29F5B00DB29D3 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		52EBB3F628B2A0DC00DB29D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3F828B2A12400DB29D3 /* FirstViewController.swift */,
+				52EBB3FA28B2A15D00DB29D3 /* SecondViewController.swift */,
+				52EBB3FC28B2A18300DB29D3 /* ThirdViewController.swift */,
+				52EBB3FE28B2A19B00DB29D3 /* FourthViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52EBB3F728B2A0E800DB29D3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				52EBB3EB28B29F5C00DB29D3 /* LaunchScreen.storyboard */,
+				52EBB3E628B29F5B00DB29D3 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52EBB3DC28B29F5B00DB29D3 /* MoonView */ = {
+		52EBB3DC28B29F5B00DB29D3 /* Emoji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52EBB3F128B29F5C00DB29D3 /* Build configuration list for PBXNativeTarget "MoonView" */;
+			buildConfigurationList = 52EBB3F128B29F5C00DB29D3 /* Build configuration list for PBXNativeTarget "Emoji" */;
 			buildPhases = (
 				52EBB3D928B29F5B00DB29D3 /* Sources */,
 				52EBB3DA28B29F5B00DB29D3 /* Frameworks */,
@@ -82,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = MoonView;
+			name = Emoji;
 			productName = MoonView;
-			productReference = 52EBB3DD28B29F5B00DB29D3 /* MoonView.app */;
+			productReference = 52EBB3DD28B29F5B00DB29D3 /* Emoji.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52EBB3D828B29F5B00DB29D3 /* Build configuration list for PBXProject "MoonView" */;
+			buildConfigurationList = 52EBB3D828B29F5B00DB29D3 /* Build configuration list for PBXProject "Emoji" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52EBB3DC28B29F5B00DB29D3 /* MoonView */,
+				52EBB3DC28B29F5B00DB29D3 /* Emoji */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EBB3E528B29F5B00DB29D3 /* ViewController.swift in Sources */,
+				52EBB40128B2A2CD00DB29D3 /* Model.swift in Sources */,
+				52EBB3FF28B2A19B00DB29D3 /* FourthViewController.swift in Sources */,
+				52EBB3FB28B2A15D00DB29D3 /* SecondViewController.swift in Sources */,
+				52EBB3F928B2A12400DB29D3 /* FirstViewController.swift in Sources */,
+				52EBB3FD28B2A18300DB29D3 /* ThirdViewController.swift in Sources */,
 				52EBB3E128B29F5B00DB29D3 /* AppDelegate.swift in Sources */,
 				52EBB3E328B29F5B00DB29D3 /* SceneDelegate.swift in Sources */,
 			);
@@ -337,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52EBB3D828B29F5B00DB29D3 /* Build configuration list for PBXProject "MoonView" */ = {
+		52EBB3D828B29F5B00DB29D3 /* Build configuration list for PBXProject "Emoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52EBB3EF28B29F5C00DB29D3 /* Debug */,
@@ -346,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52EBB3F128B29F5C00DB29D3 /* Build configuration list for PBXNativeTarget "MoonView" */ = {
+		52EBB3F128B29F5C00DB29D3 /* Build configuration list for PBXNativeTarget "Emoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52EBB3F228B29F5C00DB29D3 /* Debug */,
